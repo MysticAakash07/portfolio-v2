@@ -9,13 +9,21 @@ const Experience = () => {
 						<div className="w-full lg:w-1/4">
 							<p className="mb-2 text-sm text-neutral-400">{exp.year}</p>
 						</div>
-                        <div className="w-full max-w-xl lg:3/4">
-                        <h6 className="mb-2 font-semibold">{exp.role} - <span className="text-sm text-purple-100">{exp.company}</span></h6>
-                        <p className="mb-4 text-neutral-400">{exp.description}</p>
-                        {exp.technologies.map((tech,idx)=>(
-                            <span key={idx} className="mr-2 mt-4 bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 ">{tech}</span>
-                        ))}
-                        </div>
+						<div className="w-full max-w-xl lg:3/4">
+							<h6 className="mb-2 font-semibold">
+								{exp.role} -{" "}
+								<span className="text-sm text-purple-100">{exp.company}</span>
+							</h6>
+							<p className="mb-4 text-neutral-400">{exp.description}</p>
+							{exp.technologies.map((tech, idx) => (
+								<span
+									key={idx}
+									className="mr-2 mt-4 px-2 py-1 text-sm font-medium text-purple-500 border-purple-300 border rounded-xl"
+								>
+									{tech}
+								</span>
+							))}
+						</div>
 					</div>
 				))}
 			</div>
