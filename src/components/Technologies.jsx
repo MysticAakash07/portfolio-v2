@@ -1,9 +1,18 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import {
+	SiMongodb,
+	SiTypescript,
+	SiPython,
+	SiCplusplus,
+	SiTailwindcss,
+	SiTensorflow,
+	SiKeras,
+	SiFirebase,
+	SiExpress,
+	SiMysql,
+	SiGit,
+} from "react-icons/si";
+import { FaNodeJs, FaJava, FaGithub } from "react-icons/fa";
 import { motion } from "motion/react";
 
 const iconVariants = (duration) => ({
@@ -36,6 +45,7 @@ const Technologies = () => {
 				transition={{ duration: 1.5 }}
 				className="flex flex-wrap items-center justify-center gap-4"
 			>
+				{/* React */}
 				<motion.div
 					variants={iconVariants(2.5)}
 					initial="initial"
@@ -44,30 +54,8 @@ const Technologies = () => {
 				>
 					<RiReactjsLine className="text-6xl text-cyan-400" />
 				</motion.div>
-				<motion.div
-					variants={iconVariants(3)}
-					initial="initial"
-					animate="animate"
-					className="rounded-2xl border-4 border-neutral-500 p-4"
-				>
-					<TbBrandNextjs className="text-6xl" />
-				</motion.div>
-				<motion.div
-					variants={iconVariants(1.5)}
-					initial="initial"
-					animate="animate"
-					className="rounded-2xl border-4 border-neutral-500 p-4"
-				>
-					<SiMongodb className="text-6xl text-green-500" />
-				</motion.div>
-				<motion.div
-					variants={iconVariants(1.75)}
-					initial="initial"
-					animate="animate"
-					className="rounded-2xl border-4 border-neutral-500 p-4"
-				>
-					<DiRedis className="text-6xl text-red-700" />
-				</motion.div>
+
+				{/* Node.js */}
 				<motion.div
 					variants={iconVariants(3)}
 					initial="initial"
@@ -76,13 +64,124 @@ const Technologies = () => {
 				>
 					<FaNodeJs className="text-6xl text-green-500" />
 				</motion.div>
+				{/* MongoDB */}
 				<motion.div
-					variants={iconVariants(4)}
+					variants={iconVariants(1.5)}
 					initial="initial"
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<BiLogoPostgresql className="text-6xl text-sky-700" />
+					<SiMongodb className="text-6xl text-green-500" />
+				</motion.div>
+				{/* Express */}
+				<motion.div
+					variants={iconVariants(2.5)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiExpress className="text-6xl text-white" />
+				</motion.div>
+
+				{/* TypeScript */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiTypescript className="text-6xl text-blue-500" />
+				</motion.div>
+				{/* C++ */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiCplusplus className="text-6xl text-blue-700" />
+				</motion.div>
+				{/* Python */}
+				<motion.div
+					variants={iconVariants(2.5)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiPython className="text-6xl text-yellow-400" />
+				</motion.div>
+				{/* Java */}
+				<motion.div
+					variants={iconVariants(2.5)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<FaJava className="text-6xl text-red-600" />
+				</motion.div>
+
+				{/* Firebase */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiFirebase className="text-6xl text-yellow-400" />
+				</motion.div>
+				{/* MySQL */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiMysql className="text-6xl text-blue-500" />
+				</motion.div>
+				{/* TensorFlow */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiTensorflow className="text-6xl text-orange-500" />
+				</motion.div>
+				{/* Keras */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiKeras className="text-6xl text-red-600" />
+				</motion.div>
+				{/* Git */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiGit className="text-6xl text-red-500" />
+				</motion.div>
+				{/* GitHub */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<FaGithub className="text-6xl text-white" />
+				</motion.div>
+				{/* Tailwind */}
+				<motion.div
+					variants={iconVariants(2)}
+					initial="initial"
+					animate="animate"
+					className="rounded-2xl border-4 border-neutral-500 p-4"
+				>
+					<SiTailwindcss className="text-6xl text-blue-400" />
 				</motion.div>
 			</motion.div>
 		</div>
