@@ -14,7 +14,7 @@ const Navbar = () => {
 			<div className="flex flex-shrink-0 items-center">
 				<img className="w-25" src={logo} alt="Logo" />
 			</div>
-			<div className="Lg:mr-8 flex justify-center items-center gap-4 text-3xl">
+			<div className="lg:mr-8 flex justify-center items-center gap-4 text-3xl">
 				<FaLinkedin
 					className="cursor-pointer text-white hover:text-cyan-300 transition"
 					onClick={() => handleClick(LINKS.linkedIn)}
