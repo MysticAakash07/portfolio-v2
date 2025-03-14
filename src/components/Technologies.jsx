@@ -52,7 +52,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<RiReactjsLine className="text-6xl text-cyan-400" />
+					<RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />
 				</motion.div>
 
 				{/* Node.js */}
@@ -62,7 +62,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<FaNodeJs className="text-6xl text-green-500" />
+					<FaNodeJs className="text-4xl lg:text-6xl text-green-500" />
 				</motion.div>
 				{/* MongoDB */}
 				<motion.div
@@ -71,7 +71,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiMongodb className="text-6xl text-green-500" />
+					<SiMongodb className="text-4xl lg:text-6xl text-green-500" />
 				</motion.div>
 				{/* Express */}
 				<motion.div
@@ -80,7 +80,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiExpress className="text-6xl text-white" />
+					<SiExpress className="text-4xl lg:text-6xl text-white" />
 				</motion.div>
 
 				{/* TypeScript */}
@@ -90,7 +90,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiTypescript className="text-6xl text-blue-500" />
+					<SiTypescript className="text-4xl lg:text-6xl text-blue-500" />
 				</motion.div>
 				{/* C++ */}
 				<motion.div
@@ -99,7 +99,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiCplusplus className="text-6xl text-blue-700" />
+					<SiCplusplus className="text-4xl lg:text-6xl text-blue-700" />
 				</motion.div>
 				{/* Python */}
 				<motion.div
@@ -108,7 +108,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiPython className="text-6xl text-yellow-400" />
+					<SiPython className="text-4xl lg:text-6xl text-yellow-400" />
 				</motion.div>
 				{/* Java */}
 				<motion.div
@@ -117,7 +117,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<FaJava className="text-6xl text-red-600" />
+					<FaJava className="text-4xl lg:text-6xl text-red-600" />
 				</motion.div>
 
 				{/* Firebase */}
@@ -127,7 +127,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiFirebase className="text-6xl text-yellow-400" />
+					<SiFirebase className="text-4xl lg:text-6xl text-yellow-400" />
 				</motion.div>
 				{/* MySQL */}
 				<motion.div
@@ -136,7 +136,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiMysql className="text-6xl text-blue-500" />
+					<SiMysql className="text-4xl lg:text-6xl text-blue-500" />
 				</motion.div>
 				{/* TensorFlow */}
 				<motion.div
@@ -145,7 +145,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiTensorflow className="text-6xl text-orange-500" />
+					<SiTensorflow className="text-4xl lg:text-6xl text-orange-500" />
 				</motion.div>
 				{/* Keras */}
 				<motion.div
@@ -154,7 +154,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiKeras className="text-6xl text-red-600" />
+					<SiKeras className="text-4xl lg:text-6xl text-red-600" />
 				</motion.div>
 				{/* Git */}
 				<motion.div
@@ -163,7 +163,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiGit className="text-6xl text-red-500" />
+					<SiGit className="text-4xl lg:text-6xl text-red-500" />
 				</motion.div>
 				{/* GitHub */}
 				<motion.div
@@ -172,7 +172,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<FaGithub className="text-6xl text-white" />
+					<FaGithub className="text-4xl lg:text-6xl text-white" />
 				</motion.div>
 				{/* Tailwind */}
 				<motion.div
@@ -181,7 +181,7 @@ const Technologies = () => {
 					animate="animate"
 					className="rounded-2xl border-4 border-neutral-500 p-4"
 				>
-					<SiTailwindcss className="text-6xl text-blue-400" />
+					<SiTailwindcss className="text-4xl lg:text-6xl text-blue-400" />
 				</motion.div>
 			</motion.div>
 		</div>
