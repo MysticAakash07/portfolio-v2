@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { LINKS } from "../constants";
-const handleClick = (link) => {
+export const handleClick = (link) => {
 	window.open(link, "_blank");
 };
 

@@ -2,6 +2,7 @@ import project1 from "../assets/projects/YelpCamp.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/Portfolio.jpg";
 import project4 from "../assets/projects/Cat-Dog-CNN.jpg";
+import { link } from "motion/react-client";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -10,7 +11,6 @@ import project4 from "../assets/projects/Cat-Dog-CNN.jpg";
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With hands-on experience in the MERN stack, I have built dynamic platforms like YelpCamp and an authentication app, integrating secure APIs and efficient databases. My expertise includes front-end technologies like React.js and back-end frameworks like Express.js and Node.js, complemented by proficiency in database management with MongoDB, MySQL, and Firebase. I aim to leverage my technical skills to create innovative solutions that enhance user experience and drive business growth.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. My experience includes working with technologies like React.js, Node.js, Express.js, and MongoDB, with a strong focus on designing RESTful APIs and building scalable applications. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. My work on projects like YelpCamp, a full-stack campground review app, and a CNN-based image classifier reflects my ability to blend creativity with technical expertise. Outside of coding, I enjoy music, playing the guitar, and exploring new technologies.`;
-
 
 export const EXPERIENCES = [
 	{
@@ -74,6 +74,7 @@ export const PROJECTS = [
 			"Cloudinary",
 			"MapTiler",
 		],
+		link: "https://yelpcamp-8uao.onrender.com/",
 	},
 	{
 		title: "Auth App",
@@ -81,13 +82,15 @@ export const PROJECTS = [
 		description:
 			"Developed an Android-based authentication app with Java and XML, using Firebase for backend functionality. Designed an intuitive interface with nine interactive screens for user registration, login, and data validation.",
 		technologies: ["Java", "XML", "Firebase"],
+		link: "https://github.com/MysticAakash07/Auth-App",
 	},
 	{
 		title: "Portfolio Website",
 		image: project3,
 		description:
 			"Created a responsive portfolio site using React and Tailwind CSS. Implemented smooth animations with Framer Motion to enhance user experience and visual appeal.",
-		technologies: ["React", "Tailwind CSS", "Javascript" , "Framer Motion"],
+		technologies: ["React", "Tailwind CSS", "Javascript", "Framer Motion"],
+		link: "https://portfolioaakash.vercel.app/",
 	},
 
 	{
@@ -96,6 +99,7 @@ export const PROJECTS = [
 		description:
 			"Constructed a machine learning model using TensorFlow and Keras to differentiate between cat and dog images, achieving 73% accuracy. Integrated with a Streamlit web app for easy user interaction.",
 		technologies: ["TensorFlow", "Keras", "Streamlit"],
+		link: "https://huggingface.co/spaces/Mystic-Aakash/Cat-Dog-Image-Classifier-using-CNN",
 	},
 
 	//    SAMPLE DATA
@@ -130,9 +134,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Tallital, Nainital, Uttarakhand 263002",
-  phoneNo: "+91 941-077-6480 ",
-  email: "rahulsagar460@gmail.com",
+	address: "Tallital, Nainital, Uttarakhand 263002",
+	phoneNo: "+91 941-077-6480 ",
+	email: "rahulsagar460@gmail.com",
 };
 
 export const LINKS = {
