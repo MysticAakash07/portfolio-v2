@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
 		const audio = new Audio(getRandomSong());
 		audio.loop = true;
-    audio.volume = .2;
+    audio.volume = .1;
 
 		const playAudio = () => {
 			audio.play().catch((e) => console.error("Audio playback failed: ", e));
