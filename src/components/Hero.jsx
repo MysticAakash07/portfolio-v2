@@ -50,7 +50,7 @@ const Hero = () => {
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ duration: 0.6, delay: 0.4 }}
 							src={profilePic}
-							className="rounded-2xl w-full"
+							className="rounded-2xl"
 							alt="Aakash Sagar Profile Picture"
 						/>
 					</div>
