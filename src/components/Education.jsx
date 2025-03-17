@@ -1,4 +1,4 @@
-import { motion } from "motion/react"; // Correct import from framer-motion
+import { motion } from "motion/react";
 import { EDUCATION } from "../constants";
 
 const Education = () => {
