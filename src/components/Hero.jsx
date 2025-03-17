@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/AakashProfile_2.png";
+import profilePic from "../assets/AakashProfile_2.svg";
 import { motion } from "motion/react";
 
 const container = (delay) => ({
@@ -50,7 +50,7 @@ const Hero = () => {
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ duration: 0.6, delay: 0.4 }}
 							src={profilePic}
-							className="rounded-2xl"
+							className="rounded-2xl w-full"
 							alt="Aakash Sagar Profile Picture"
 						/>
 					</div>

@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/AakashWorking.svg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 
