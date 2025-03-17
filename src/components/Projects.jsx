@@ -43,14 +43,16 @@ const Projects = () => {
 								{project.title}🔗
 							</h6>
 							<p className="mb-4 text-neutral-400">{project.description}</p>
-							{project.technologies.map((tech, idx) => (
-								<span
-									key={idx}
-									className="mr-2 mt-4 px-2 py-1 text-sm font-medium text-purple-500 border-purple-300 border rounded"
-								>
-									{tech}
-								</span>
-							))}
+							<div className="flex flex-wrap">
+								{project.technologies.map((tech, idx) => (
+									<span
+										key={idx}
+										className="mr-2 mt-4 px-2 py-1 text-sm font-medium text-purple-500 border-purple-300 border rounded"
+									>
+										{tech}
+									</span>
+								))}
+							</div>
 						</motion.div>
 					</div>
 				))}

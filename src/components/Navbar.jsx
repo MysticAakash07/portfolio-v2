@@ -10,7 +10,7 @@ export const handleClick = (link) => {
 
 const Navbar = () => {
 	return (
-		<nav className=" mb-20 flex items-center justify-between py-6">
+		<nav className=" mb-20 flex items-center justify-between py-6 lg:p-8">
 			<div className="flex flex-shrink-0 items-center">
 				<img className="w-25" src={logo} alt="Logo" />
 			</div>
