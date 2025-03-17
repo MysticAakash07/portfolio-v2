@@ -51,6 +51,8 @@ const Hero = () => {
 							transition={{ duration: 0.6, delay: 0.4 }}
 							src={profilePic}
 							className="rounded-2xl"
+							width={500}
+							height={500}
 							alt="Aakash Sagar Profile Picture"
 						/>
 					</div>

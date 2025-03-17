@@ -16,7 +16,13 @@ const About = () => {
 					className="w-full lg:w-1/2 lg:p-8"
 				>
 					<div className="flex items-center justify-center">
-						<img className="rounded-2xl" src={aboutImg} alt="" />
+						<img
+							className="rounded-2xl"
+							width={500}
+							height={500}
+							src={aboutImg}
+							alt=""
+						/>
 					</div>
 				</motion.div>
 				<motion.div
