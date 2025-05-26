@@ -2,6 +2,7 @@ import project1 from "../assets/projects/YelpCamp.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/Portfolio.jpg";
 import project4 from "../assets/projects/Cat-Dog-CNN.jpg";
+import project5 from "../assets/projects/MystiPlay.png";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -82,6 +83,20 @@ export const PROJECTS = [
 			"Developed an Android-based authentication app with Java and XML, using Firebase for backend functionality. Designed an intuitive interface with nine interactive screens for user registration, login, and data validation.",
 		technologies: ["Java", "XML", "Firebase"],
 		link: "https://github.com/MysticAakash07/Auth-App",
+	},
+	{
+		title: "MystiPlay (Spotify Clone)",
+		image: project5,
+		description:
+			"A dynamic Spotify clone built with React and Spotify Web API. Supports real-time playback with Spotify Web Playback SDK, mobile responsiveness, playlist saving, artist and album views, and custom controls including shuffle, repeat, and liking songs.",
+		technologies: [
+			"React",
+			"Spotify API",
+			"Styled Components",
+			"OAuth",
+			"Web Playback SDK",
+		],
+		link: "https://mystiplay.vercel.app/",
 	},
 	{
 		title: "Portfolio Website",
