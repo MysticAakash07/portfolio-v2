@@ -148,8 +148,8 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-	address: "Tallital, Nainital, Uttarakhand 263002",
-	phoneNo: "+91 941-077-6480 ",
+	address: "Sector 58, Noida, Uttar Pradesh, 201307",
+	phoneNo: "+91 955-770-9671 ",
 	email: "rahulsagar460@gmail.com",
 };
 
