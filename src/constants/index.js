@@ -3,21 +3,22 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/Portfolio.jpg";
 import project4 from "../assets/projects/Cat-Dog-CNN.jpg";
 import project5 from "../assets/projects/MystiPlay.png";
+import project6 from "../assets/projects/Pokemon_App.jpg";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 // export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With hands-on experience in the MERN stack, I have built dynamic platforms like YelpCamp and an authentication app, integrating secure APIs and efficient databases. My expertise includes front-end technologies like React.js and back-end frameworks like Express.js and Node.js, complemented by proficiency in database management with MongoDB, MySQL, and Firebase. I aim to leverage my technical skills to create innovative solutions that enhance user experience and drive business growth.`;
+export const HERO_CONTENT = `I'm a full stack developer passionate about building performant, user-focused web applications. With hands-on experience in the MERN stack, I've developed scalable platforms like YelpCamp and a secure authentication app. My strengths lie in building dynamic frontends with React.js and managing robust backends with Node.js and Express, integrated with databases like MongoDB, MySQL, and Firebase. I enjoy crafting seamless user experiences that solve real-world problems and contribute to business success.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. My experience includes working with technologies like React.js, Node.js, Express.js, and MongoDB, with a strong focus on designing RESTful APIs and building scalable applications. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. My work on projects like YelpCamp, a full-stack campground review app, and a CNN-based image classifier reflects my ability to blend creativity with technical expertise. Outside of coding, I enjoy music, playing the guitar, and exploring new technologies.`;
+export const ABOUT_TEXT = `I’m a curious and adaptable full stack developer who loves turning ideas into functional, clean, and impactful web apps. My expertise spans React.js, Redux, TypeScript, Node.js, Express, and database solutions like MongoDB and Firebase. I’ve worked on diverse projects—from building a full-stack campground review app (YelpCamp) to designing a CNN-based image classifier and a fully interactive Pokémon app. I enjoy collaborative problem-solving and continuously explore new tools and technologies. When I’m not coding, you’ll find me diving into music, writing lyrics, or playing the guitar.`;
 
 export const EXPERIENCES = [
 	{
 		year: "June 2023 - November 2023",
 		role: "Full Stack Developer Intern",
 		company: "MangosOrange Services Pvt. Ltd.",
-		description: `Researched and documented the design of an e-learning platform, improving user experience by integrating government schemes. Worked with the MERN stack, implementing frontend components using React.js and designing RESTful APIs with Express.js. Improved content structure for better readability and organization. Utilized MongoDB for database structuring, GitHub for version control, and Figma for prototyping, improving workflow efficiency by 30%.`,
+		description: `Researched and documented the design of an e-learning platform, improving user experience by integrating government schemes. Worked with the MERN stack, implementing frontend components using React.js and designing RESTful APIs with Express.js. Improved content structure for better readability and organization. Utilized MongoDB for database structuring, GitHub for version control, and Figma for prototyping.`,
 		technologies: [
 			"JavaScript",
 			"MongoDB",
@@ -114,6 +115,14 @@ export const PROJECTS = [
 			"Constructed a machine learning model using TensorFlow and Keras to differentiate between cat and dog images, achieving 73% accuracy. Integrated with a Streamlit web app for easy user interaction.",
 		technologies: ["TensorFlow", "Keras", "Streamlit"],
 		link: "https://huggingface.co/spaces/Mystic-Aakash/Cat-Dog-Image-Classifier-using-CNN",
+	},
+	{
+		title: "Pokemon App",
+		image: project6,
+		description:
+			"A feature-rich Pokédex built using React, Redux, and Firebase. Users can search for Pokémon, view detailed stats and abilities, compare different Pokémon side-by-side, and create custom saved lists stored in Firebase. Styled using modular SCSS for a clean and responsive UI.",
+		technologies: ["React", "Firebase", "Redux", "SCSS"],
+		link: "https://pokedex-aakash.netlify.app/",
 	},
 
 	//    SAMPLE DATA
