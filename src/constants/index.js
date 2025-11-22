@@ -184,7 +184,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-	address: "Sector 58, Noida, Uttar Pradesh, 201307",
+	address: "Noida, Uttar Pradesh, 201307",
 	phoneNo: "+91 955-770-9671 ",
 	email: "rahulsagar460@gmail.com",
 };
