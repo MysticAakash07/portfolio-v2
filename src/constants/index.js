@@ -4,6 +4,7 @@ import project3 from "../assets/projects/Portfolio.jpg";
 import project4 from "../assets/projects/Cat-Dog-CNN.jpg";
 import project5 from "../assets/projects/MystiPlay.png";
 import project6 from "../assets/projects/Pokemon_App.jpg";
+import project7 from "../assets/projects/Open-Wordle.jpg";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -14,6 +15,23 @@ export const HERO_CONTENT = `I'm a full stack developer passionate about buildin
 export const ABOUT_TEXT = `I’m a curious and adaptable full stack developer who loves turning ideas into functional, clean, and impactful web apps. My expertise spans React.js, Redux, TypeScript, Node.js, Express, and database solutions like MongoDB and Firebase. I’ve worked on diverse projects—from building a full-stack campground review app (YelpCamp) to designing a CNN-based image classifier and a fully interactive Pokémon app. I enjoy collaborative problem-solving and continuously explore new tools and technologies. When I’m not coding, you’ll find me diving into music, writing lyrics, or playing the guitar.`;
 
 export const EXPERIENCES = [
+	{
+		year: "September 2025 - Present",
+		role: "Full Stack Intern",
+		company: "Trijotech Software Consulting Pvt. Ltd.",
+		description: `Designed and developed the company website. Built a blog generator and an OCR-based e-invoicing application using the MERN stack. Developed a custom CRM tailored to company requirements and deployed all projects on Hostinger using an Ubuntu VPS.`,
+		technologies: [
+			"JavaScript",
+			"MongoDB",
+			"Express.js",
+			"React.js",
+			"Node.js",
+			"Figma",
+			"TailwindCSS",
+			"Hostinger",
+			"Apache2",
+		],
+	},
 	{
 		year: "June 2023 - November 2023",
 		role: "Full Stack Developer Intern",
@@ -28,6 +46,7 @@ export const EXPERIENCES = [
 			"Figma",
 		],
 	},
+
 	//    SAMPLE DATA
 
 	// {
@@ -123,6 +142,14 @@ export const PROJECTS = [
 			"A feature-rich Pokédex built using React, Redux, and Firebase. Users can search for Pokémon, view detailed stats and abilities, compare different Pokémon side-by-side, and create custom saved lists stored in Firebase. Styled using modular SCSS for a clean and responsive UI.",
 		technologies: ["React", "Firebase", "Redux", "SCSS"],
 		link: "https://pokedex-aakash.netlify.app/",
+	},
+	{
+		title: "Open Wordle",
+		image: project7,
+		description:
+			"A fully interactive Wordle clone with custom animations, hints, and an on-screen mobile-friendly keyboard. The backend, built with Express, serves a new random word on each game reload, while the frontend is powered by React and TypeScript with smooth flip animations and responsive design. Includes answer reveal, replay mode, and a handcrafted SVG logo for a polished experience.",
+		technologies: ["React", "TypeScript", "Express", "Vite"],
+		link: "https://open-wordle.onrender.com/",
 	},
 
 	//    SAMPLE DATA
